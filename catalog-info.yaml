@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redirector
+  description: Lambda function for URL redirection
+spec:
+  type: service
+  lifecycle: production
+  owner: myurl-dev
+  system: myurl
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: datahandler
+  description: Lambda function for handling data
+spec:
+  type: service
+  lifecycle: production
+  owner: myurl-dev
+  system: myurl
