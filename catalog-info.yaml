@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: redirector
+  name: myurl-redirector
   description: Lambda function for URL redirection
   links:
     - url: https://github.com/Cloud-native-engineering/myurl_redirector/tree/main/redirector
@@ -16,7 +16,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: datahandler
+  name: myurl-datahandler
   description: Lambda function for handling data
   links:
     - url: https://github.com/Cloud-native-engineering/myurl_redirector/tree/main/datahandler
