@@ -3,6 +3,10 @@ kind: Component
 metadata:
   name: redirector
   description: Lambda function for URL redirection
+  links:
+    - url: https://github.com/Cloud-native-engineering/myurl_redirector/tree/main/redirector
+      title: GitHub Repository
+      icon: github
 spec:
   type: service
   lifecycle: production
@@ -14,6 +18,10 @@ kind: Component
 metadata:
   name: datahandler
   description: Lambda function for handling data
+  links:
+    - url: https://github.com/Cloud-native-engineering/myurl_redirector/tree/main/datahandler
+      title: GitHub Repository
+      icon: github
 spec:
   type: service
   lifecycle: production
